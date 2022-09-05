@@ -1,0 +1,40 @@
+@font-face{
+    font-family: Montserrat;
+    src: https://fonts.google.com/specimen/Montserrat;
+    
+}
+
+
+div {
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+img {
+    width: 200px;
+    height: 300px;
+  }
+
+.left-side{
+    width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
