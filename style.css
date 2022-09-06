@@ -12,16 +12,14 @@ div {
 body{
     display: flex;
     flex: 1;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
-    margin: 25px;
-  
 }
 
 img {
-    width: 500px;
-    height: auto;
+    width: 400px;
+    height: 465px;
   }
   
   button{
@@ -43,28 +41,30 @@ img {
 .flex-container{
     display: flex;
     flex: 1;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%; 
+    align-items: center; 
 }
 
 .picture{
     display: flex;
-    flex: 1;
-    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 75%;
     background-color: white;
-    margin-left: 10px;
+    width: 25%;
 }
 
 .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(158, 36%, 37%);
     color: hsl(158, 36%, 37%);
 }
