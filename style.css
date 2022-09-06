@@ -1,7 +1,6 @@
 @font-face{
     font-family: Montserrat;
-    src: https://fonts.google.com/specimen/Montserrat;
-    
+    src: https://fonts.google.com/specimen/Montserrat;    
 }
 
 
@@ -12,29 +11,60 @@ div {
 
 body{
     display: flex;
-    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(30, 38%, 92%);
-    
+    margin: 25px;
+  
 }
 
 img {
-    width: 200px;
-    height: 300px;
+    width: 500px;
+    height: auto;
+  }
+  
+  button{
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-color: black;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 6px;
+    transition-duration: 0.4;
+    
   }
 
-.left-side{
-    width: 320px;
-    padding: 10px;
+  .button.hover{
+    background-color: blue;
+    color:orangered;
+  }
+
+.flex-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%; 
 }
 
-
-.right-side{
+.picture{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex: 1;
+    margin: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
 }
