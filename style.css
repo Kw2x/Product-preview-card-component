@@ -10,7 +10,6 @@ div {
 }
 
 body{
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,30 +25,6 @@ img {
   border-radius: 2px;
   border-left: 2px white;
 }
-=======
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    background-color: hsl(30, 38%, 92%);
-}
-
-img {
-    width: 400px;
-    height: 465px;
-  }
-  
-  button{
-    color: white;
-    background-color: hsl(158, 36%, 37%);
-    border-color: black;
-    padding: 6px;
-    margin: 10px;
-    border-radius: 6px;
-    transition-duration: 0.4;
-    
-  }
->>>>>>> df4fde76bdc9a5f1db236e2b02f18d2219d69e56
 
 button{
   color: white;
@@ -59,7 +34,6 @@ button{
   margin: 10px;
   border-radius: 6px;
   transition-duration: 0.4;
-  
 }
 
 .button{
@@ -67,7 +41,6 @@ button{
 }
 
 .flex-container{
-<<<<<<< HEAD
   display: flex;
   flex-shrink: 0;
   justify-content: center;
@@ -105,33 +78,3 @@ button{
   align-items: center;
   color: hsl(158, 36%, 37%);
 }
-=======
-    display: flex;
-    flex: 1;
-    align-items: center; 
-}
-
-.picture{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 25%;
-}
-
-.price{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: hsl(158, 36%, 37%);
-}
->>>>>>> df4fde76bdc9a5f1db236e2b02f18d2219d69e56
